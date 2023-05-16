@@ -1,0 +1,41 @@
+.container {
+    background-color: #C8D3FF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    background-color: white;
+    width: 100vp;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .box {
+    padding: 10px;
+    width: 30%;
+  }
+  
+  .box1 {
+    background-color: #FFF3B9;
+  }
+  
+  .box2 {
+    background-color: #97FFCC;
+  }
+  
+  .box3 {
+    background-color: #FFC4EC;
+  }
