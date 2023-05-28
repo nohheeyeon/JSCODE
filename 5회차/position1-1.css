@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+  }
+  .nav {
+    font-size: 35px;
+    color: blue;
+    height: 45px;
+    width: 100%;
+    background-color: pink;
+    border: 5px solid blue;
+    position: fixed;
+  }
+  
+  .content {
+    font-size: 30px;
+    padding-top: 55px;
+  }

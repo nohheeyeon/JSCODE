@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+  }
+  
+  .container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 80px 1fr 80px;
+  }
+  
+  .item {
+    border: 3px solid blue;
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  .header {
+    grid-column: 1 / span 2;
+  }
+  
+  .left-side {
+    grid-row: 2 / span 1;
+  }
+  
+  .main {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+  
+  .footer {
+    grid-column: 1 / span 2;
+  }

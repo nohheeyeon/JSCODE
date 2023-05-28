@@ -1,0 +1,26 @@
+.container {
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .input-wrapper {
+    padding: 5px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-wrapper label {
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  
+  .input-wrapper input {
+    flex-grow: 1;
+  }
